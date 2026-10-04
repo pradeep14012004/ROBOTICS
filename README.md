@@ -47,3 +47,14 @@ ROBOTICS/
 ## Goal
 
 Build practical experience in robot control, simulation, perception and autonomous navigation rather than maintaining isolated tutorial code.
+
+
+## Browser Demo
+
+A browser-accessible differential-drive kinematics simulator is available under `web/`. It runs without ROS 2 or Gazebo and supports keyboard control, straight motion and circular motion.
+
+```bash
+docker compose -f docker-compose.web.yml up --build
+```
+
+Open `http://localhost:8080`.
